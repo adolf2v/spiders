@@ -8,6 +8,7 @@ date:2016-09-22
 用于测试的验证码图片:2.gif
 用户测试汉字的验证码图片:sim.png
 需要安装tesseract-ocr包的，要不然会报OSError: [Errno 2] No such file or directory的错
+参考：https://github.com/tesseract-ocr
 """
 #从PIL库导入Image,用于生成Image对象
 from PIL import Image
